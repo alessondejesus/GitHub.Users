@@ -17,7 +17,6 @@ button.onclick = async () => {
     }
 }
 
-
 async function executeRequest(url){
     try{
         /* url da requisição */
