@@ -19,8 +19,11 @@ form.addEventListener('submit', event => {
     event.preventDefault()
 });
 ```
+
 ------------
 ##### Bibliotecas e Frameworks Usados:
 - JQuery
 - BootStrap
-- Async/Await
+- Async/Await (iremos abusar muito disso aqui)
+- Arrow Function (disso também :p)
+- Desestruturação

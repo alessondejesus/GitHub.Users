@@ -59,13 +59,8 @@ function addModal(data){
     $('#modal').modal('show');
 }
 
-
-
 /* Não permite o refresh ao submitar */
 var form = document.getElementById("formulario-usuario");
 form.addEventListener('submit', event => {
     event.preventDefault()
 });
-
-
-// 
