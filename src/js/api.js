@@ -1,15 +1,15 @@
 /* Rodando funções ao clicar */
 const button = document.getElementById('botao')
-button.onclick = async () => {
+button.onclick = () => {
 
     /* Apagando valores padrões */
-    var ulModal = await document.getElementById('ulModal')
+    var ulModal = document.getElementById('ulModal')
     ulModal.innerHTML = ''
     var titleModal = document.querySelector('h5#modal')
     titleModal.innerHTML = ''
 
     /* Capturando Input */
-    const user = await document.getElementById('usuario')
+    const user = document.getElementById('usuario')
     if (user.value.length <= 0){
         user.style.borderColor = 'red'
     }else{ 
